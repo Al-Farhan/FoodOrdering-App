@@ -23,6 +23,7 @@ const SignIn = () => {
         style={styles.input}
         value={password}
         onChangeText={setPassword}
+        secureTextEntry
       />
 
       <Button text="Sign in" />

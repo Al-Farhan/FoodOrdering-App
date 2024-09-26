@@ -23,6 +23,7 @@ const SignUp = () => {
         style={styles.input}
         value={password}
         onChangeText={setPassword}
+        secureTextEntry
       />
       <Button text="Create account" />
       <Link href={'/sign-in'} asChild><Text style={styles.textButton}>Sign in</Text></Link>
